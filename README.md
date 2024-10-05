@@ -3,8 +3,8 @@
 
 ## CS50's Introduction to Computer Science
 
-- Started: 10th Dec, 2023
-- Ended: 14th Dec, 2023
+- Started: 01 / 10 / 2024
+- Ended: .. / .. / ....
 
 | Submissions                                                                        | Lecture(s)                    |
 |------------------------------------------------------------------------------------|-------------------------------|
