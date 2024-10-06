@@ -8,7 +8,7 @@
 
 | Submissions                                                                        | Lecture(s)                    |
 |------------------------------------------------------------------------------------|-------------------------------|
-| [Simple Pong Game](https://scratch.mit.edu/projects/937971609/)                    | Week 0: Scratch               |
+| [Simple Pong Game](https://scratch.mit.edu/projects/1077515650)                    | Week 0: Scratch               |
 | [Credit, Mario (more), Population](./Introduction_To_Computer_Science/Week01_C)    | Week 1: C                     |
 | [Caesar, Readability, Scrabble](./Introduction_To_Computer_Science/Week02_Arrays)  | Week 2: Arrays                |
 | [Plularity, Runoff](./Introduction_To_Computer_Science/Week03_Algorithms)          | Week 3: Algorithms            |
