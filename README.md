@@ -9,7 +9,7 @@
 | Submissions                                                                        | Lecture(s)                    |
 |------------------------------------------------------------------------------------|-------------------------------|
 | [Simple Starfish Game](https://scratch.mit.edu/projects/1077515650)                | Week 0: Scratch               |
-| [Cash, Mario (more), Me (hello)](./Week_1_C/Problem_set_1)                         | Week 1: C                     |
+| [Cash, Mario (more), Me (hello)](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%201%20C/Problem%20set%201) | Week 1: C                     |
 | [Caesar, Readability, Scrabble](./Introduction_To_Computer_Science/Week02_Arrays)  | Week 2: Arrays                |
 | [Plularity, Runoff](./Introduction_To_Computer_Science/Week03_Algorithms)          | Week 3: Algorithms            |
 | [Volume, Filter (More), Recover](./Introduction_To_Computer_Science/Week04_Memory) | Week 4: Memory                |
