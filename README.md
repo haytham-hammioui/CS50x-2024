@@ -11,13 +11,13 @@
 | [Simple Starfish Game](https://scratch.mit.edu/projects/1077515650)                | Week 0: Scratch               |
 | [Cash, Mario (more), Me (hello)](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%201%20C/Problem%20set%201) | Week 1: C                     |
 | [Caesar, Readability, Scrabble](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%202%20Arrays/Problem%20set%202)  | Week 2: Arrays                |
-| [Plularity, Runoff](./Introduction_To_Computer_Science/Week03_Algorithms)          | Week 3: Algorithms            |
-| [Volume, Filter (More), Recover](./Introduction_To_Computer_Science/Week04_Memory) | Week 4: Memory                |
-| [Inheritence, Speller](./Introduction_To_Computer_Science/Week05_DataStructures)   | Week 5: Data Structures       |
-| [Credit, Mario, Readability](./Introduction_To_Computer_Science/Week06_Python)     | Week 6: Python                |
-| [Songs](./Introduction_To_Computer_Science/Week07_SQL)                             | Week 7: SQL                   |
-| [Homepage, Trivia](./Introduction_To_Computer_Science/Week08_Html_CSS_JS)          | Week 8: HTML, CSS, JavaScript |
-| [Birthdays, Finance](./Introduction_To_Computer_Science/Week09_Flask)              | Week 9: Flask                 |
+| [Plularity, Runoff]()          | Week 3: Algorithms            |
+| [Volume, Filter (More), Recover]() | Week 4: Memory                |
+| [Inheritence, Speller]()   | Week 5: Data Structures       |
+| [Credit, Mario, Readability]()     | Week 6: Python                |
+| [Songs]()                             | Week 7: SQL                   |
+| [Homepage, Trivia]()          | Week 8: HTML, CSS, JavaScript |
+| [Birthdays, Finance]()              | Week 9: Flask                 |
 
 # 🏰 Harvard (CS50x) 2024:
 ![cs50](https://facialix.com/wp-content/uploads/2023/05/curso-gratis-de-harvard-facialix.jpg)
