@@ -11,7 +11,7 @@
 | [Simple Starfish Game](https://scratch.mit.edu/projects/1077515650)                | Week 0: Scratch               |
 | [Cash, Mario (more), Me (hello)](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%201%20C/Problem%20set%201) | Week 1: C                     |
 | [Caesar, Readability, Scrabble](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%202%20Arrays/Problem%20set%202)  | Week 2: Arrays                |
-| [Plularity, Runoff]()          | Week 3: Algorithms            |
+| [Sort, Plularity, Runoff](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%203%20Algorithms/Problem%20set%203)          | Week 3: Algorithms            |
 | [Volume, Filter (More), Recover]() | Week 4: Memory                |
 | [Inheritence, Speller]()   | Week 5: Data Structures       |
 | [Credit, Mario, Readability]()     | Week 6: Python                |
