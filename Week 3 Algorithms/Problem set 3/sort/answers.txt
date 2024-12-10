@@ -1,0 +1,27 @@
+ sort1 uses: Bubble Sort
+
+How do you know?:
+
+reversed50000.txt -> 5,169s
+sorted50000.txt -> 2,620s
+
+for the sorted50000.txt it is very fast because the list had already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+
+reversed50000.txt -> 0,816s
+sorted50000.txt -> 0.745s
+
+for the random50000.txt it is the fastest
+
+sort3 uses: Selection Sort
+
+How do you know?:
+
+reversed50000.txt -> 4.111s
+sorted50000.txt -> 2,868s
+random50000.txt -> 3.391s
+
+for the sorted50000.txt it has the same time with random50000.txt
