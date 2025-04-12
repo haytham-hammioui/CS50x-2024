@@ -13,7 +13,7 @@
 | [Caesar, Readability, Scrabble](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%202%20Arrays/Problem%20set%202)  | Week 2: Arrays                |
 | [Sort, Plularity, Runoff](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%203%20Algorithms/Problem%20set%203)          | Week 3: Algorithms            |
 | [Volume, Filter (Less), Recover](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%204%20Memory/Problem%20set%204) | Week 4: Memory                |
-| [Inheritence, Speller]()   | Week 5: Data Structures       |
+| [Inheritence, Speller](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%205%20Data%20Structures/Problem%20set%205)   | Week 5: Data Structures       |
 | [Credit, Mario, Readability]()     | Week 6: Python                |
 | [Songs]()                             | Week 7: SQL                   |
 | [Homepage, Trivia]()          | Week 8: HTML, CSS, JavaScript |
