@@ -1,10 +1,12 @@
 # 👨‍🎓 My CS50x
 ![cs50](chahada)
 
+
 ## CS50's Introduction to Computer Science
 
 - Started: 01 / 10 / 2024
 - Ended: .. / .. / ....
+
 
 | Submissions                                                                        | Lecture(s)                    |
 |------------------------------------------------------------------------------------|-------------------------------|
@@ -24,6 +26,8 @@
 
 * CS50 is an introductory computer science course offered by Harvard University. It's designed for people of all backgrounds, with or without prior programming 
 * experience. Here's a breakdown of the key things to know about CS50:
+
+
 
 Introduction
 
