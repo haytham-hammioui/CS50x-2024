@@ -1,0 +1,1 @@
+SELECT DISTINCT(p2.name) from people as p1 join stars as s1 on p1.id = s1.person_id join stars as s2 on s1.movie_id = s2.movie_id join people as p2 on s2.person_id = p2.id where p1.name = 'Kevin Bacon' and p1.birth = 1958 and p2.id != p1.id;
