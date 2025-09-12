@@ -1,0 +1,37 @@
+HTML Tags Used:
+1. <nav> - Navigation bar across all pages
+2. <header> - Hero section on the homepage
+3. <main> - Main content container on all pages
+4. <section> - Content sections for organizing content
+5. <div> - Division/container elements throughout the site
+6. <h1> to <h5> - Headings of various levels
+7. <p> - Paragraphs of text
+8. <a> - Hyperlinks to other pages and external resources
+9. <ul> and <li> - Unordered lists and list items
+10. <table>, <thead>, <tbody>, <tr>, <th>, <td> - Table structure for projects
+11. <form> - Contact form on the contact page
+12. <input> and <textarea> - Form input fields
+13. <button> - Interactive buttons
+14. <img> - Images throughout the site
+15. <footer> - Page footer on all pages
+16. <i> - Icons from Bootstrap Icons library
+17. <address> - Contact information on contact page
+18. <ol> - Ordered list for favorite books
+
+CSS Properties Used:
+1. font-family - Sets the font for the entire page to 'Segoe UI' and fallbacks
+2. padding-top - Accounts for fixed navbar (76px)
+3. background with linear-gradient - Creates overlay effect on hero section
+4. background-size, background-position, background-repeat - Controls hero image display
+5. color - Sets text colors throughout the site
+6. margin - Controls spacing between elements (including negative margin for hero section)
+7. min-height - Sets minimum height for the hero section (60vh)
+8. display: flex and align-items: center - Centers content in hero section
+9. position: relative and absolute - Positions overlay and content elements
+10. box-shadow - Adds shadow effects to navbar on scroll
+
+JavaScript Implementation:
+I implemented interactive features including an alert welcome message on the homepage, form validation for the contact form, navbar color change on scroll, and a modal image viewer for the gallery on the hobbies page.
+
+Bootstrap Usage:
+I used Bootstrap's grid system for responsive layout, navbar component for navigation, card components for content sections, table styling for projects, form styling for the contact page, and Bootstrap Icons for social media links. I also utilized Bootstrap's utility classes for spacing, flexbox, and responsive design.

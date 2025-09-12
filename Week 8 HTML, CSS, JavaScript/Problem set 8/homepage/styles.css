@@ -1,0 +1,193 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 76px;
+    background-color: #f8f9fa;
+    color: #2d3748;
+}
+.hero-section {
+    background: linear-gradient(rgba(25, 32, 71, 0.7), rgba(25, 32, 71, 0.9)), url('https://placehold.co/1200x600');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 80px 0;
+    margin: -76px 0 40px 0;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(25, 32, 71, 0.7), rgba(25, 32, 71, 0.9));
+    z-index: 1;
+}
+.hero-section {
+    background: url('https://placehold.co/1200x600') center/cover no-repeat;
+}
+.hero-section h1 {
+    margin-bottom: 1rem;
+}
+.hero-section .lead {
+    margin-bottom: 2rem;
+}
+.navbar-dark.bg-primary {
+    background-color: #2d3748 !important;
+}
+.skill-badge {
+    background-color: #4a5568;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.skill-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px r
+.skill-badge:nth-child(1) { background-color: #e34c26; }
+.skill-badge:nth-child(2) { background-color: #264de4; }
+.skill-badge:nth-child(3) { background-color: #f0db4f; color: #2d3748; }
+.skill-badge:nth-child(4) { background-color: #3776ab; }
+.skill-badge:nth-child(5) { background-color: #61dafb; color: #2d3748; }
+.skill-badge:nth-child(6) { background-color: #68a063; }
+.social-link {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.social-link:hover {
+    color: #1a56a5;
+    text-decoration: none;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+    color: #2d3748;
+    font-weight: 600;
+}
+.btn-primary {
+    background-color: #4299e1;
+    border-color: #4299e1;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background-color: #3182ce;
+    border-color: #3182ce;
+    transform: translateY(-2px);
+}
+.btn-outline-primary {
+    color: #4299e1;
+    border-color: #4299e1;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.btn-outline-primary:hover {
+    background-color: #4299e1;
+    border-color: #4299e1;
+    transform: translateY(-2px);
+}
+.form-control:focus {
+    border-color: #4299e1;
+    box-shadow: 0 0 0 0.3rem rgba(66, 153, 225, 0.25);
+}
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+}
+.table th {
+    background-color: #4299e1;
+    color: white;
+    font-weight: 600;
+}
+.table-hover tbody tr:hover {
+    background-color: #ebf4ff;
+}
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.accordion-button {
+    background-color: #ebf4ff;
+    color: #2d3748;
+    font-weight: 500;
+    border-radius: 8px !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4299e1;
+    color: white;
+}
+.accordion-body {
+    background-color: #f8f9fa;
+}
+footer {
+    margin-top: 50px;
+    background-color: #2d3748 !important;
+}
+footer p {
+    margin: 0;
+    color: #e2e8f0;
+}
+.text-primary {
+    color: #4299e1 !important;
+}
+.text-muted {
+    color: #718096 !important;
+}
+.bg-light {
+    background-color: #f7fafc !important;
+}
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+        min-height: 50vh;
+        margin: -76px 0 30px 0;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .skill-badge {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+#welcomeBtn {
+    animation: pulse 2s infinite;
+}
+#welcomeBtn:hover {
+    animation: none;
+}

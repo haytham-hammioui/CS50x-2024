@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function(){
+                let choices = document.querySelectorAll('.choice');
+                let res1 = document.getElementById('res1');
+                choices.forEach(button => {
+                    button.addEventListener('click', function(){
+                        choices.forEach(b => b.style.backgroundColor = '#d9edff');
+                        if(button.classList.contains('correct')){
+                            button.style.backgroundColor = 'green';
+                            res1.textContent = 'Correct!';
+                            res1.style.color = 'green'
+                        }
+                        else{
+                            button.style.backgroundColor = 'red';
+                            res1.textContent = 'Incorrect';
+                            res1.style.color = 'red';
+                        }
+                    });
+                });
+                let check_b = document.getElementById('check');
+                let input = document.getElementById('answer');
+                let res2 = document.getElementById('res2');
+
+                check_b.addEventListener('click', function() {
+                    let userAnswer = input.value.trim().toLowerCase();
+
+                    if (userAnswer === 'haytham' || userAnswer === 'omerta') {
+                        input.style.backgroundColor = 'lightgreen';
+                        res2.textContent = 'Correct!';
+                        res2.style.color = 'green';
+                    } else {
+                        input.style.backgroundColor = 'lightcoral';
+                        res2.textContent = 'Incorrect';
+                        res2.style.color = 'red';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                 <h3>What is the capital of morocco?</h3>
+                 <button class="choice">fes</button>
+                 <button class="choice">Rabat</button>
+                 <button class="choice correct">tetouan</button>
+                 <p id="res1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>who is the king of morocco?</h3>
+                <input type="text" id="answer" placeholder="Type your answer here">
+                <input type="submit" id="check" value="Check">
+                <p id="res2"></p>
+            </div>
+        </div>
+    </body>
+</html>
