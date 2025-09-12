@@ -18,7 +18,7 @@
 | [Inheritence, Speller](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%205%20Data%20Structures/Problem%20set%205)   | Week 5: Data Structures       |
 | [hello, Mario (more), Cash, Readability, Dna](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%206%20Python/Problem%20set%206)     | Week 6: Python                |
 | [Songs, movies, fiftyville](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%207%20SQL/Problem%20set%207)                             | Week 7: SQL                   |
-| [Homepage, Trivia]()          | Week 8: HTML, CSS, JavaScript |
+| [Homepage, Trivia](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript/Problem%20set%208)          | Week 8: HTML, CSS, JavaScript |
 | [Birthdays, Finance]()              | Week 9: Flask                 |
 
 # 🏰 Harvard (CS50x) 2024:
