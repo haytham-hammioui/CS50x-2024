@@ -20,6 +20,7 @@
 | [Songs, movies, fiftyville](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%207%20SQL/Problem%20set%207)                             | Week 7: SQL                   |
 | [Homepage, Trivia](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript/Problem%20set%208)          | Week 8: HTML, CSS, JavaScript |
 | [Birthdays, Finance](https://github.com/haytham-hammioui/CS50x-2024/tree/main/Week%209%20Flask/Problem%20set%209)              | Week 9: Flask                 |
+| [Final Project]()              | Week 10: The End                 |
 
 # 🏰 Harvard (CS50x) 2024:
 ![cs50](https://facialix.com/wp-content/uploads/2023/05/curso-gratis-de-harvard-facialix.jpg)
