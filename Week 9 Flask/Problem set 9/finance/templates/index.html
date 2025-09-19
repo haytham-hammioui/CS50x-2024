@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for holding in holdings %}
+                <tr>
+                    <td>{{ holding.symbol }}</td>
+                    <td>{{ holding.name }}</td>
+                    <td>{{ holding.total_shares }}</td>
+                    <td>{{ holding.price | usd }}</td>
+                    <td>{{ holding.value | usd }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="4">CASH</td>
+                <td>{{ cash | usd }}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td><strong>{{ total_value | usd }}</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="mt-3">
+        <a href="/add_cash" class="btn btn-primary">Add Cash</a>
+    </div>
+{% endblock %}
